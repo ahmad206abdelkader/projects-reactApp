@@ -37,7 +37,7 @@
   flex-direction: column;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .actions {
     flex-direction: row;
   }
@@ -46,16 +46,16 @@
 .cart-item button {
   font: inherit;
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: 1 rem;
   color: #8a2b06;
   border: 1px solid #8a2b06;
-  width: 3rem;
+  width: 2.5rem;
   text-align: center;
   border-radius: 6px;
   background-color: transparent;
   cursor: pointer;
   margin-left: 1rem;
-  margin: 0.25rem;
+  margin: 0rem;
 }
 
 .cart-item button:hover,

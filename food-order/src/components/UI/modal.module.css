@@ -38,3 +38,17 @@
     transform: translateY(0);
   }
 }
+@media (max-width: 490px) {
+  .modal {
+    position: fixed;
+    top: 25vh;
+    left: 7%;
+    width: 85%;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 30;
+    animation: slide-down 500ms ease-out forwards;
+  }
+}
