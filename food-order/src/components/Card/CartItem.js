@@ -1,10 +1,13 @@
 import classes from './CartItem.module.css';
 
+// CartItem it items in window white when click the cartItem it show
 
 const CartItem = (props) => {
     const price = `$${props.price.toFixed(2)}`;
 
     const icon = props.amount;
+
+    //TrashIcon just for - and trash icon for design 
 
     const TruchIcon = (props) => {
 

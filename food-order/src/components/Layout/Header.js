@@ -1,8 +1,10 @@
 import { Fragment } from "react";
 
 import HeaderCartButton from "./HeadrCartButton";
-import mealsImage from '../../assets/meals.jpg';
+import mealsImage from '../../assets/646937.jpg';
 import classes from './Header.module.css';
+
+
 
 const Header = (props) => {
     return (<Fragment>
@@ -11,7 +13,7 @@ const Header = (props) => {
             <HeaderCartButton onClick={props.onShowCart} />
         </header>
         <div className={classes['main-image']}>
-            <img src={mealsImage} alt="table food photo" />
+            <img src={mealsImage} alt="table food " />
         </div>
     </Fragment>);
 };

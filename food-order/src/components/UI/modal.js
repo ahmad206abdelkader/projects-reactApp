@@ -1,4 +1,4 @@
-import { Fragment, useState } from 'react';
+import { Fragment } from 'react';
 import classes from './modal.module.css';
 //reactDOM for definsition of constent
 import ReactDOM from 'react-dom';
