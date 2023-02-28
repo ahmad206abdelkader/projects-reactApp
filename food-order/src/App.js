@@ -33,7 +33,6 @@ function App() {
       <ul className={classes.Ul}>
         <li>created by</li>
         <li>ahmad abdelkader</li>
-        <li>00962780754976</li>
       </ul>
 
     </CartProvider>
