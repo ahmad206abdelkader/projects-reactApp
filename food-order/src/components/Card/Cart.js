@@ -80,7 +80,48 @@ const Cart = (props) => {
 
     const didSubmitModalContent =
         <React.Fragment>
-            <p>Successfully sent the order!</p>
+            <div><div className={classes.preloader}>
+                <div className={classes.box}>
+                    <div className={classes.box__inner}>
+                        <div className={classes.box__backFlap}></div>
+                        <div className={classes.box__rightFlap}></div>
+                        <div className={classes.box__frontFlap}></div>
+                        <div className={classes.box__leftFlap}></div>
+                        <div className={classes.box__front}></div>
+                    </div>
+                </div>
+                <div className={classes.box}>
+                    <div className={classes.box__inner}>
+                        <div className={classes.box__backFlap}></div>
+                        <div className={classes.box__rightFlap}></div>
+                        <div className={classes.box__frontFlap}></div>
+                        <div className={classes.box__leftFlap}></div>
+                        <div className={classes.box__front}></div>Name
+                    </div>
+                </div>
+                <div className={classes.line}>
+                    <div className={classes.line__inner}></div>
+                </div>
+                <div className={classes.line}>
+                    <div className={classes.line__inner}></div>
+                </div>
+                <div className={classes.line}>
+                    <div className={classes.line__inner}></div>
+                </div>
+                <div className={classes.line}>
+                    <div className={classes.line__inner}></div>
+                </div>
+                <div className={classes.line}>
+                    <div className={classes.line__inner}></div>
+                </div>
+                <div className={classes.line}>
+                    <div className={classes.line__inner}></div>
+                </div>
+                <div className={classes.line}>
+                    <div className={classes.line__inner}></div>
+                </div>
+            </div>
+            </div>
             <div className={classes.actions}>
                 <button className={classes.button} onClick={props.onClose}>
                     Close
